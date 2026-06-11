@@ -314,7 +314,7 @@ images.forEach(img => {
             placeholder.textContent = 'Logo';
             placeholder.style.width = '50px';
             placeholder.style.height = '50px';
-        } else if (this.id === 'aditi-img' || this.id === 'abhi-img') {
+        } else if (this.id === 'abhi-img') {
             placeholder.style.width = '100%';
             placeholder.style.height = '100%';
             placeholder.style.borderRadius = '50%';
