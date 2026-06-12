@@ -8,7 +8,7 @@
     <meta name="description" content="Explore HR and recruitment services by Recruitiva World Private Limited: talent acquisition, executive search, HR consulting, RPO, candidate screening, and team building.">
     <meta name="keywords" content="talent acquisition India, executive search, HR consulting, RPO services, candidate screening, recruitment outsourcing">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#10b981">
+    <meta name="theme-color" content="#0f2744">
     <link rel="canonical" href="https://www.recruitivaworld.com/services.html">
     <link rel="icon" type="image/png" href="LOGO.png">
     <meta property="og:type" content="website">
@@ -54,47 +54,67 @@
         ]
     }
     </script>
-    <!-- Google Fonts - Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo" title="Recruitiva World Private Limited - Home">
-                <img src="LOGO.png" alt="Recruitiva World Private Limited - HR consultancy and recruitment services logo" id="logo-img" width="280" height="75">
+    <div class="mobile-overlay" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" title="Recruitiva World Private Limited">
+                <img src="LOGO.png" alt="Recruitiva World Private Limited logo" id="logo-img" width="220" height="60">
             </a>
-            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-            <nav aria-label="Main navigation">
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="main-nav" aria-label="Main navigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html" class="active">Services</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="industries.html" class="nav-link">Industries</a></li>
+                    <li><a href="leadership.html" class="nav-link">Leadership</a></li>
+                    <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
-                <a href="contact.html" class="nav-cta">Get Started</a>
+                <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get Started</a>
             </nav>
         </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Page Header -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Our Services</h1>
-                <p>Comprehensive HR and recruitment solutions tailored to your business needs</p>
+        <section class="hero hero--page">
+            <div class="hero-bg-shapes" aria-hidden="true"><div class="shape shape-1"></div><div class="shape shape-2"></div><div class="shape shape-3"></div></div>
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-badge">Our Services</span>
+                    <h1>Comprehensive HR &amp; Recruitment Solutions</h1>
+                    <p class="hero-lead">End-to-end hiring and human resource services tailored to your business needs across India.</p>
+                    <div class="hero-actions">
+                        <a href="contact.html" class="btn btn-primary">Get Started</a>
+                        <a href="industries.html" class="btn btn-outline-light">View Industries</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal reveal-delay-1">
+                    <div class="hero-slider" data-autoplay="5500" aria-label="Our services highlights">
+                        <div class="hero-slider-viewport"><div class="hero-slider-track">
+                            <div class="hero-slide is-active"><div class="slide-card slide-services-card"><h3>Talent Acquisition</h3><p class="slide-desc">IT &amp; Non-IT recruitment across industries with rigorous screening.</p><div class="slide-services-grid"><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><span>IT Hiring</span></div><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><span>Non-IT Roles</span></div><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span><span>Background Checks</span></div><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span><span>Sourcing</span></div></div></div></div>
+                            <div class="hero-slide"><div class="slide-card slide-image-card"><img src="aditi.jpeg" alt="HR consulting team at Recruitiva World" width="480" height="480" loading="eager"><div class="slide-image-overlay"><span class="slide-tag"><svg class="slide-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Executive Search</span><h3>Senior Leadership Hiring</h3><p>C-Suite, board-level &amp; confidential executive placements.</p></div></div></div>
+                            <div class="hero-slide"><div class="slide-card slide-stats-card"><div class="slide-stats-header"><svg class="slide-icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"/></svg><h3>HR Consulting &amp; RPO</h3></div><div class="slide-stats-grid"><div class="slide-stat-item"><span class="slide-stat-icon si-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg></span><strong>Policy</strong><span>HR Policies</span></div><div class="slide-stat-item"><span class="slide-stat-icon si-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span><strong>RPO</strong><span>Full Cycle</span></div><div class="slide-stat-item"><span class="slide-stat-icon si-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><strong>Team</strong><span>Building</span></div><div class="slide-stat-item"><span class="slide-stat-icon si-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span><strong>Screen</strong><span>Assessments</span></div></div></div></div>
+                        </div></div>
+                        <div class="hero-slider-controls"><button type="button" class="slider-btn slider-prev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></button><div class="slider-dots" role="tablist"></div><button type="button" class="slider-btn slider-next" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button></div>
+                    </div>
+                </div>
             </div>
         </section>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Services</li></ol></div></nav>
 
-        <!-- Services Section -->
-        <section class="section">
+        <section class="section page-section services-section">
             <div class="container">
                 <h2 class="section-title">What We Offer</h2>
                 <p class="section-subtitle">End-to-End HR Solutions for Your Organization</p>
@@ -175,8 +195,7 @@
             </div>
         </section>
 
-        <!-- Why Choose Us Section -->
-        <section class="section section-alt">
+        <section class="section page-section about-section">
             <div class="container">
                 <h2 class="section-title">Why Choose Recruitiva World Private Limited</h2>
                 <div class="card-grid">
@@ -201,28 +220,43 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-main">
-                <div class="footer-section">
-                    <h4>Recruitiva World Private Limited</h4>
-                    <p>Recruiting Excellence, Building Futures</p>
-                    <p>Your trusted partner in HR consultancy and recruitment services.</p>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="LOGO.png" alt="Recruitiva World Private Limited" width="180" height="50" loading="lazy">
+                    <p>Recruiting Excellence, Building Futures. Your trusted partner in HR consultancy and recruitment services across India.</p>
                 </div>
-                <div class="footer-section">
+                <div class="footer-links">
                     <h4>Quick Links</h4>
-                    <div class="footer-nav">
-                        <a href="index.html">Home</a>
-                        <a href="services.html">Services</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="testimonials.html">Testimonials</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="footer-section">
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Talent Acquisition</a></li>
+                        <li><a href="services.html">Executive Search</a></li>
+                        <li><a href="services.html">HR Consulting</a></li>
+                        <li><a href="services.html">RPO</a></li>
+                        <li><a href="services.html">Candidate Screening</a></li>
+                        <li><a href="services.html">Team Building</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p><strong>Abhinav Kumar:</strong> <a href="tel:+917044178863">+91 70441 78863</a></p>
+                    <p><strong>Abhinav Kumar</strong></p>
+                    <a href="tel:+917044178863">+91 70441 78863</a>
+                    <a href="contact.html" class="footer-cta">Get Started →</a>
                 </div>
             </div>
             <div class="footer-bottom">

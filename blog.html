@@ -8,7 +8,7 @@
     <meta name="description" content="Read HR insights, recruitment tips, talent management strategies, and industry trends from Recruitiva World Private Limited — India's trusted HR consultancy.">
     <meta name="keywords" content="HR blog India, recruitment tips, talent management, employer branding, hiring trends, HR technology">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#10b981">
+    <meta name="theme-color" content="#0f2744">
     <link rel="canonical" href="https://www.recruitivaworld.com/blog.html">
     <link rel="icon" type="image/png" href="LOGO.png">
     <meta property="og:type" content="website">
@@ -44,47 +44,65 @@
         ]
     }
     </script>
-    <!-- Google Fonts - Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo" title="Recruitiva World Private Limited - Home">
-                <img src="LOGO.png" alt="Recruitiva World Private Limited - HR consultancy and recruitment services logo" id="logo-img" width="280" height="75">
+    <div class="mobile-overlay" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" title="Recruitiva World Private Limited">
+                <img src="LOGO.png" alt="Recruitiva World Private Limited logo" id="logo-img" width="220" height="60">
             </a>
-            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-            <nav aria-label="Main navigation">
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="main-nav" aria-label="Main navigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="blog.html" class="active">Blog</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="industries.html" class="nav-link">Industries</a></li>
+                    <li><a href="leadership.html" class="nav-link">Leadership</a></li>
+                    <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
-                <a href="contact.html" class="nav-cta">Get Started</a>
+                <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get Started</a>
             </nav>
         </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Page Header -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Our Blog</h1>
-                <p>Insights, tips, and trends in HR and recruitment</p>
+        <section class="hero hero--page">
+            <div class="hero-bg-shapes" aria-hidden="true"><div class="shape shape-1"></div><div class="shape shape-2"></div><div class="shape shape-3"></div></div>
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-badge">Insights &amp; Trends</span>
+                    <h1>HR &amp; Recruitment Blog</h1>
+                    <p class="hero-lead">Expert insights, recruitment tips, and industry trends from India's trusted HR consultancy.</p>
+                    <div class="hero-actions"><a href="contact.html" class="btn btn-primary">Subscribe via Contact</a></div>
+                </div>
+                <div class="hero-visual reveal reveal-delay-1">
+                    <div class="hero-slider" data-autoplay="5500" aria-label="Blog highlights">
+                        <div class="hero-slider-viewport"><div class="hero-slider-track">
+                            <div class="hero-slide is-active"><div class="slide-card slide-blog-card"><span class="slide-tag"><svg class="slide-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Featured</span><h3>The Future of Remote Recruitment</h3><p>Virtual interviews, remote onboarding &amp; global talent pools are reshaping hiring.</p><span class="slide-blog-date">Jan 15, 2026</span></div></div>
+                            <div class="hero-slide"><div class="slide-card slide-image-card"><img src="abhihanav.jpeg" alt="HR insights from Recruitiva World team" width="480" height="480" loading="eager"><div class="slide-image-overlay"><span class="slide-tag"><svg class="slide-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"/></svg> HR Strategy</span><h3>Building Employer Brands</h3><p>Attract top talent with a compelling employer value proposition.</p></div></div></div>
+                            <div class="hero-slide"><div class="slide-card slide-services-card"><h3>Trending Topics</h3><div class="slide-services-grid"><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span><span>AI in HR</span></div><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><span>Diversity Hiring</span></div><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><span>Retention</span></div><div class="slide-service-item"><span class="slide-svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span><span>Screening Tips</span></div></div><img src="LOGO.png" alt="" class="slide-logo-watermark" width="100" height="35" loading="lazy" aria-hidden="true"></div></div>
+                        </div></div>
+                        <div class="hero-slider-controls"><button type="button" class="slider-btn slider-prev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></button><div class="slider-dots" role="tablist"></div><button type="button" class="slider-btn slider-next" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button></div>
+                    </div>
+                </div>
             </div>
         </section>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><div class="container"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Blog</li></ol></div></nav>
 
-        <!-- Blog Posts Section -->
-        <section class="section">
+        <section class="section page-section">
             <div class="container">
                 <h2 class="section-title">Latest Articles</h2>
                 <p class="section-subtitle">Stay updated with the latest trends and insights in HR and recruitment</p>
@@ -147,8 +165,7 @@
             </div>
         </section>
 
-        <!-- Categories Section -->
-        <section class="section section-alt">
+        <section class="section page-section services-section">
             <div class="container">
                 <h2 class="section-title">Browse by Category</h2>
                 <div class="services-grid">
@@ -177,28 +194,43 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-main">
-                <div class="footer-section">
-                    <h4>Recruitiva World Private Limited</h4>
-                    <p>Recruiting Excellence, Building Futures</p>
-                    <p>Your trusted partner in HR consultancy and recruitment services.</p>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="LOGO.png" alt="Recruitiva World Private Limited" width="180" height="50" loading="lazy">
+                    <p>Recruiting Excellence, Building Futures. Your trusted partner in HR consultancy and recruitment services across India.</p>
                 </div>
-                <div class="footer-section">
+                <div class="footer-links">
                     <h4>Quick Links</h4>
-                    <div class="footer-nav">
-                        <a href="index.html">Home</a>
-                        <a href="services.html">Services</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="testimonials.html">Testimonials</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="footer-section">
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Talent Acquisition</a></li>
+                        <li><a href="services.html">Executive Search</a></li>
+                        <li><a href="services.html">HR Consulting</a></li>
+                        <li><a href="services.html">RPO</a></li>
+                        <li><a href="services.html">Candidate Screening</a></li>
+                        <li><a href="services.html">Team Building</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p><strong>Abhinav Kumar:</strong> <a href="tel:+917044178863">+91 70441 78863</a></p>
+                    <p><strong>Abhinav Kumar</strong></p>
+                    <a href="tel:+917044178863">+91 70441 78863</a>
+                    <a href="contact.html" class="footer-cta">Get Started →</a>
                 </div>
             </div>
             <div class="footer-bottom">
